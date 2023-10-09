@@ -1,1 +1,6 @@
 comb_ausentes.txt
+*.db
+todas*
+resultados*
+ocorrencias*
+*.log

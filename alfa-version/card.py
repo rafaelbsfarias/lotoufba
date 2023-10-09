@@ -7,6 +7,8 @@ class Card:
     def __init__(self):
         # Generate a list of 15 unique random numbers between 1 and 25 (inclusive)
         self.numbers = random.sample(range(1, 26), 15)
+        # Sort the numbers in ascending order
+        self.numbers.sort()
 
     # Custom string representation for the card object
     def __str__(self):
